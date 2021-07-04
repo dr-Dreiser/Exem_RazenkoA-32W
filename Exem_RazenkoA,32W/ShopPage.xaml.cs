@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace Exem_RazenkoA_32W
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ShopPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ShopPage : Page
     {
-        public MainWindow()
+        public ShopPage()
         {
             InitializeComponent();
-            ClassFrame.MF = MainFrame;
-            MainFrame.Navigate(new ShopPage());
         }
     }
 }
